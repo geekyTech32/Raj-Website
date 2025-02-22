@@ -1,0 +1,728 @@
+/*  stylinig for nav-containers first container in the page */
+
+body{
+    background-color:#FFFFF0 ;
+    transition:0.4s;
+}
+
+/* styling for nav bar */
+#nav-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90vw;
+    height:90vh;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+    margin-bottom:50px;
+    }
+
+
+#logo{
+    width:15vw;
+    height:33vh;
+    position:absolute;
+    top:50px;
+    z-index: 1;
+}
+.logo_video{
+    width:15vw;
+    height:33vh;
+    border-radius:50%;
+}
+
+/*main video wrapper and video styling */
+#wrapper-video{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    
+    width:100%;
+    height:100%;
+
+    
+}
+
+#videos-1{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    border-radius:20px;
+}
+
+/*nav container buttons styling*/
+#wrapper-nav-element{
+  position:absolute;
+  width:75%;
+  top:70%;
+
+}
+
+#unorder-nav-item{
+   display:flex;
+   justify-content:space-evenly;
+   padding-inline-start: 0;
+}
+.nav-item-list{
+   width:13vw;
+   height:10vh;
+   list-style-type: none;
+   border-radius:10px;
+   display:flex;
+   justify-content: center;
+   border:solid 2px #FFD700;
+   transition: 0.5s;
+   padding-left:0;
+   margin-left:0;
+   
+   
+}
+
+.nav-item-list:hover{
+    background-color:#FFD700;
+    color:whitesmoke;
+}
+
+.list-anchor-tag{
+    display:flex;
+    width:100%;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    font-size:1.6em;
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling for aside containers */
+#aside-container{
+    right:0%;
+    height:60vh;
+    position:fixed;
+    top:30%;  
+    
+}
+
+/* styling underorder list */
+#social-media-unorderlist{
+    display:grid;
+    gap:50px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+/* styling list */
+.social-media-list{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  
+}
+
+/* styling image for aside containers */
+
+.aside-list{
+    width:5vw; 
+    height:7vh;
+    object-fit:contain;
+
+}
+
+/* header styling is finishing here */
+
+
+/* Main container styling */
+
+/* styling about container */
+
+#About-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* styling image in about container */
+#about-image-container{
+    display:flex;
+    justify-self: center;
+    align-self: center;
+    width:30%;
+    height:90%;
+    background-color:#800020;
+    position:absolute;
+    right:5%;
+   
+}
+
+#about-image{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    position: relative;
+    transition: 0.5s;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+        
+}
+
+
+.content-container{
+    width:50vw;
+    margin:20px;
+}
+
+.heading-container-all{
+    padding:5px;
+    font-family:"Poppins";
+    font-size:30px;
+    width:30vw;
+    margin:0;
+    color:#FF6F61;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+.content-wrapper{
+    padding:40px;
+    font-size:25px;
+    line-height: 2;
+    color:#36454F;
+    font-family:"Poppins";
+}
+
+.see_more{
+    width:12vw;
+    height:8vh;
+    border: 2px solid black;
+    border-radius:5px;
+    justify-content: center;
+    display: flex;
+    justify-self: center;
+    
+
+}
+#Achivement-wrapper{
+    display:flex;
+    margin-top:30px;
+    justify-content: space-between;
+    }
+   
+
+#achivement-image-container{
+    width:30%;
+    height:90%;
+    background-color:#800020;
+    position:relative;
+    left:5%;
+    display: flex;
+    align-self: center;
+
+
+}
+#awards-image{
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+}
+
+#achivement-image{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    position: relative;
+    transition: 0.5s;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+}
+
+#achivement-me-anchor,#about-me-anchor,#awards-me-anchor{
+    display:flex;
+    width:100%;
+    justify-content: center ;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 1.2em;
+    transition: 0.5s;
+    color:#FF6F61
+
+
+}
+
+#achivement-me-anchor:hover,#about-me-anchor:hover,#awards-me-anchor:hover{
+    background-color:#FF6F61;
+    color:whitesmoke;
+}
+
+.icons{
+    font-size:3em;
+    color:gray;
+
+}
+
+/*styling contact */
+ #contact-wrapper{
+    display:grid;
+    grid-auto-flow: column;
+    margin-top:80px;
+}
+
+#contact-image-container{
+    width:50vw;
+    height:100vh;
+}
+
+#contact-image{
+    width:50vw;
+    height:100vh;
+    object-fit:contain;
+    opacity:0.20
+    
+}
+
+#contact-form{
+    display:flex;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+    margin:60px;
+    background: rgb(131,58,180);
+    background: linear-gradient(354deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.6896008403361344) 51%, rgba(252,176,69,1) 100%);
+}
+
+
+.labels-input{
+    width:30vw;
+    height:10vh;
+    font-size:1.4em;
+    background:transparent;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    color:#FFFFF0;
+    margin-bottom:30px;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+#button-wrapper{
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+
+#submitbtn,#resetbtn{
+    width:11vw;
+    border-radius:10px;
+    background-color:transparent;
+    color:#FFFFF0;
+    font-family:"Bebas Neue";
+    font-size:1.4em;
+    padding:20px;
+}
+ 
+
+ #contact-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 80px;
+}
+
+#contact-image-container {
+    width: 50vw;
+    height: 100vh;
+}
+
+#contact-image {
+    width: 50vw;
+    height: 100vh;
+    object-fit: contain;
+    opacity: 0.20;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+}
+
+#contact-form {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    background: rgb(131,58,180);
+    background: linear-gradient(354deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.6896008403361344) 51%, rgba(252,176,69,1) 100%);
+}
+
+.labels-input {
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.4em;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #FFFFF0;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#submitbtn, #resetbtn {
+    width: 11vw;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFFFF0;
+    font-family: "Bebas Neue";
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+
+
+
+#ending-container{
+    width:auto;
+    height:20vh;
+    justify-self: center;
+    display:flex;
+    margin-bottom:30px;
+   
+
+}
+
+#social-media-unorderlist-end{
+    display:grid;
+    grid-auto-flow: column;
+    gap:10px;
+    place-items: center;
+   
+}
+
+
+
+.icons-end{
+    font-size:1.8em;
+    color:grey
+}
+
+#follow-message{
+    font-size:1.2em;
+    font-family: "Bebas Neue" ;
+
+
+}
+
+
+/*New entry awards containers*/
+
+#Awards-wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+    
+}
+
+
+#awards-image-container{
+    width:30%;
+    height:90%;
+    position: relative;
+    background-color:#800020;
+    display:flex;
+    align-self: center;
+    right:5%;
+    
+}
+
+#awards-image{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    position:relative; 
+    transition: 0.5s;  
+}
+
+
+
+/* media query for header*/
+
+
+/* Media query for iPhone 14 Pro Max */
+@media only screen and (max-width:932px) {
+ /*styling for content wrappers */
+body{
+    margin:0;
+}
+ #nav-container {
+    margin:0;
+    width:101%;
+    height:90vh;
+    display:flex;
+    
+ }
+ #logo{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+ }
+ #videos-1{
+   border-radius:0;
+   object-fit: fill;
+   width:100%;
+   display:flex;
+  
+   height:100%;
+   
+
+
+ }
+ .logo_video{
+   width:50%;
+   height:50%;
+   object-fit: cover;
+   
+   border-radius:50%;
+ }
+ 
+ #wrapper-video{
+    display:flex;
+    justify-self: center;
+    width:100%;
+    height:100%;
+ }
+
+#wrapper-nav-element{
+    width:90vw;
+    display:flex;
+   
+}
+#unorder-nav-item{
+    width:80vw;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-inline-start:0;
+    justify-content:space-evenly;
+    
+    
+}
+.nav-item-list{
+     width:15vw;
+     height:7vh;
+     font-size:0.6em;
+    list-style-type: none;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    border:solid 2px #FFD700;
+    padding-left:0;
+    margin-left:0;}
+        
+    
+   
+    
+ 
+
+.list-anchor-tag{
+    padding:10px;
+    display:flex;
+    width:100%;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    font-size:1.6em;
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Display none for aside container*/
+
+#aside-container{
+    display:none;
+}
+
+/*styling for content container*/
+#About-wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+#about-image-container{
+    display:flex;
+    justify-self: center;
+    align-self: center;
+    width:30vw;
+    height:50%;
+    background-color:#800020;
+    position:relative;
+    right:5%;
+   
+}
+#about-image{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    position: relative;
+    right:10%;
+    bottom:50px;
+}
+
+.content-container{
+    margin:20px;
+}
+
+.heading-all{
+    padding:10px;
+    font-size:1em;
+}
+.heading-container-all{
+    
+    font-family:"Poppins";
+    width:auto;
+    margin:0;
+    color:#FF6F61;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
+} 
+
+.content-wrapper{
+    padding:20px;
+    font-size:0.6em;
+    line-height: 2;
+    color:#36454F;
+    font-family:"Poppins";
+
+}
+
+.see_more{
+    height:6vh;
+    width:20vw;
+    border: 2px solid black;
+    border-radius:5px;
+    justify-content: center;
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+}
+    
+#achivement-me-anchor,#about-me-anchor,#awards-me-anchor{
+display:flex;
+width:100%;
+justify-content: center ;
+align-items: center;
+text-decoration: none;
+font-family: "Bebas Neue";
+font-size: 0.7em;
+color:#FF6F61}
+
+
+
+ #contact-wrapper{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+#contact-image-container{
+   
+    width:100%;
+}
+
+
+#contact-image{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    opacity:0.20;
+    
+}
+
+#contact-form{
+    
+    display:flex;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    height:auto;
+    border:2px solid black;
+    background: rgb(131,58,180);
+    background: linear-gradient(354deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.6896008403361344) 51%, rgba(252,176,69,1) 100%);
+} 
+
+
+.labels-input{
+    
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1px;
+    margin:10px;
+   
+    
+    font-size:0.9em;
+    background:transparent;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    color:#FFFFF0;}
+    
+#button-wrapper{
+    display:flex;
+    margin-bottom: 10px;;
+
+}
+
+ #submitbtn,#resetbtn{
+        display:flex;
+        border-radius:10px;
+        justify-content: center;
+        align-items: center;
+        background-color:transparent;
+        color:#FFFFF0;
+        font-family:"Bebas Neue";
+        font-size:0.8em;   
+        height:5vh
+    }
+
+ 
+    
+
+    #ending-container{
+        width:auto;
+        height:10vh;
+        justify-self: center;
+        display:flex;
+        margin-bottom:10px;
+       
+    }
+    
+    #social-media-unorderlist-end{
+        display:flex;
+      
+        margin-left: auto;
+        margin-right:auto;
+        align-items: center;
+        justify-content: space-ar;
+    }
+    
+    .social-media-img-end{
+        width:5vw;
+        height:7vh;
+        object-fit:contain;
+    }
+  
+}

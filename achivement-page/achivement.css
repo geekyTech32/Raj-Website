@@ -1,0 +1,770 @@
+body{
+    margin:0;
+    background-color: #FFFFF0;
+}
+
+#title{
+    height:60vh;
+}
+
+
+h1{
+   /*  position: absolute; */
+    font-size:8em;
+    display:flex;
+    text-align: center;
+    width:96%;
+    height:60%;
+    bottom:27%;
+    left:2%;
+    color:#FF6F61;
+    align-items: center;
+    font-family:"Bebas Neue"
+}
+h1 > span:nth-child(1){
+  position:absolute;
+  left:20%;
+  transition: 0.5s;
+    
+    
+}
+h1 > span:nth-child(2){
+    position:absolute;
+    left:45%;
+    visibility: hidden;
+    transition:ease-in-out;
+    font-size:3em;
+    font-family:"Poppins";
+    font-weight:100;
+    color:#FFD700
+
+    
+}
+h1 >span:nth-child(3){
+    position:absolute;
+    left:55%;
+    transition: 0.5s;
+    color:#36454F;
+   
+   
+}
+
+/* css for achivement heading */
+#achivement-heading{
+    display:flex;
+    justify-self: center;
+    height:20vh;
+    width:90%;
+    font-family:"Bebas Neue";
+    margin-bottom:50px;
+    color:#FF6F61
+
+}
+
+#achivement-h2-tag>span:nth-child(1){
+    position:absolute;
+    font-size:4em;
+    left:42%;
+    clip-path: polygon(0 0, 52% 0, 51% 100%, 0% 100%);
+    transition:0.5s;
+    
+    
+}
+
+#achivement-h2-tag> span:nth-child(2){
+    position:absolute;
+    font-size:5em;
+    visibility: hidden;
+    transition: 0.10s;
+    left:37%;
+    color:#36454F
+
+}
+
+#achivement-h2-tag>span:nth-child(3){
+    position:absolute;
+    font-size:4em;
+    left:42%;
+    transition: 0.5s;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+/*Css for achievement content*/
+
+#outer-wrapper{
+    height:113.5vh;
+    width:87.1vw;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.wrappers{
+    height:100%;
+    margin-bottom:50px;
+    display:flex;
+    border-radius:30px;
+    overflow: hidden;
+    font-family:"Poppins"
+
+    
+}
+#wrapper-1{
+    position: absolute;
+    background: rgb(241,241,244);
+    background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(17,220,170,1) 29%, rgba(21,174,38,1) 60%, rgba(21,173,174,0.9473039215686274) 81%);
+    
+    visibility: visible;
+}
+#wrapper-2{
+    position: absolute;
+    background: rgb(241,241,244);
+background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(209,214,13,0.9473039215686274) 81%, rgba(223,160,51,0.9585084033613446) 94%);
+    visibility: hidden;
+}
+#wrapper-3{
+    position:absolute;
+    background: rgb(241,241,244);
+background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(51,63,223,0.9585084033613446) 59%, rgba(1,18,236,0.7876400560224089) 75%);
+    visibility: hidden;
+}
+
+#container-tag{
+    width: 30vw;
+    height: 30vh;
+    bottom:5%;
+    display: flex;
+    left:10%;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-right:10%
+
+
+}
+
+#tag-2,
+#tag-0,
+#tag-3{
+    width:5vw;
+    margin-right:10%;
+    height: 30vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 1.5em;
+    transition: 1s;
+    font-family: "Bebas Neue";
+
+}
+
+.content{
+width:55vw; 
+font-size:1.2em;
+margin:30px;
+line-height: 1.5;
+position:relative;
+background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+rotate: 2deg;
+}
+#achivement-raj-heading{
+    display:flex;
+    justify-content: center;
+    font-size:1.3em;
+    margin-bottom:0;
+}
+.imageContainer{
+    width:30vw;
+    height:70%;
+    flex-direction: column;
+    object-fit: contain;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    
+}
+
+#skills{
+    border:2px solid black;
+    height:8vh;
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:10vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    border-radius:10px;
+    color:#fdfdfd;
+    font-family:"Bebas Neue";
+    background-color:#ffc107;
+    box-shadow:10px 10px 5px 0px whitesmoke;
+    transition: 0.2s;
+}
+
+#skills:hover{
+    box-shadow:0px 0px 0px 0px
+}
+
+.image{
+width:100%;
+height: 80%;
+
+object-fit: contain;
+-webkit-user-select: none; 
+-webkit-touch-callout: none;
+
+}
+
+{
+    padding:20px;
+}
+
+#culinaryWrapper{
+    border: solid black 2px ;
+}
+/*Styling for Awards Container*/
+
+#awards-content-wrapper {
+    display:flex;
+    align-items: center;
+}
+
+.hide{
+    display:none;
+}
+#awards-container{
+    margin:0;
+    margin-top:30px;
+    width:99%;
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    border: #36454F solid 2px;
+    
+    background-image: url("/jpg_folder/download-3.jpg");
+    
+}
+
+#award-heading{
+    width:70%;
+    height:30vh;
+    display:flex;
+    justify-self: center;
+    color:#FF6F61;
+    
+}
+#awards-h2-tag>span{
+    font-size:5em;
+    font-family:"Bebas Neue";
+    position: absolute;
+    left:35%;
+   
+}
+#awards-h2-tag>span:nth-child(2){
+clip-path: polygon(51% 0, 100% 0, 100% 100%, 51% 100%);
+transition: 0.5s;
+}
+
+#awards-h2-tag>span:nth-child(1){
+clip-path: polygon(51% 0, 0 0, 0 100%, 51% 100%);
+transition: 0.5s;
+    
+}
+
+#awards-h2-tag>span:nth-child(3){
+    visibility: hidden;
+    color:#FFD700;
+    left:40%;
+}
+
+/*Styling for awards slider*/
+
+
+#awards-section{
+   
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    border-radius:20px;
+    width:57.8vw;
+    height:60vh;
+   
+
+}
+
+#awards-content-wrapper{
+    margin-bottom:2px solid black;
+    margin:0;
+}
+#awards-content{
+    width:80%;
+    line-height: 1.5;
+    font-family: "Poppins";
+    border: 2px solid rgb(255, 250, 250);
+    margin: 40px;
+    font-size:1.5em;
+    line-height: 2;
+    border-radius:20px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    background: rgb(250,12,245);
+    background: linear-gradient(131deg, rgba(250,12,245,1) 9%, rgba(51,63,223,0.9585084033613446) 59%, rgba(1,18,236,0.7876400560224089) 75%, rgba(227,236,1,0.6839985994397759) 98%);
+  
+
+}
+.paragraph-award{
+    padding:50px;
+    color:#FFFFF0;
+}
+    
+    
+
+#nxtBtn{
+   font-size:4em;
+   
+   
+}
+#nxtBtn:hover{
+    color:#3cff19
+}
+
+#buttons{
+    position:relative;
+    bottom:60%;
+    left:85%;
+    width:4vw;
+    
+}
+
+
+
+
+#home-wrapper{
+    width:100%;
+    height:25vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#home:hover{
+    background-color:#FF6F61;
+    color:#fdfdfd
+}
+#home{
+    display:flex;
+    width:15vw;
+    height:13vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue";
+    font-size:2em;
+    text-decoration: none;
+    color:black;
+    transition: 0.5s;
+    border:2px solid black;
+}
+
+
+/*Animation's for first selector's*/
+
+@keyframes animation-1{
+  50%{
+    transform: rotateX(80deg);
+    box-shadow:black 0px 20px 20px;
+    background: rgb(241,241,244);
+    background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(17,220,170,1) 29%, rgba(21,174,38,1) 60%, rgba(21,173,174,0.9473039215686274) 81%);
+  }
+  100%{
+    transform:rotateX(0deg);
+    background-color: whitesmoke;
+  }
+}
+
+
+
+/*class for first selector*/
+.selector-animation-1{
+ animation-name:animation-1;
+ animation-duration: 1s;
+ animation-fill-mode:forwards;
+ background: rgb(241,241,244);
+    background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(17,220,170,1) 29%, rgba(21,174,38,1) 60%, rgba(21,173,174,0.9473039215686274) 81%);
+ 
+}
+
+
+
+
+
+/*Animation for second selector */
+
+@keyframes animation-2{
+    50%{
+      transform: rotateX(80deg);
+      box-shadow:black 0px 20px 20px;
+      background: rgb(241,241,244);
+      background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(209,214,13,0.9473039215686274) 81%, rgba(223,160,51,0.9585084033613446) 94%)
+      
+    }
+    100%{
+      transform:rotateX(0deg);
+      background-color: whitesmoke;
+    }
+  }
+
+.selector-animation-2{
+    animation-name:animation-2;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    background: rgb(241,241,244);
+    background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(209,214,13,0.9473039215686274) 81%, rgba(223,160,51,0.9585084033613446) 94%);
+
+}
+
+/*Animation for third selector*/
+
+
+    @keyframes animation-3{
+        50%{
+          transform: rotateX(80deg);
+          box-shadow:black 0px 20px 20px;
+          background: rgb(241,241,244);
+          background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(51,63,223,0.9585084033613446) 59%, rgba(1,18,236,0.7876400560224089) 75%)
+         ;
+        }
+        100%{
+          transform:rotateX(0deg);
+          background-color: whitesmoke;
+        }
+      }
+
+.selector-animation-3{
+    animation-name:animation-3;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    background: rgb(241,241,244);
+    background: linear-gradient(131deg, rgba(241,241,244,1) 9%, rgba(51,63,223,0.9585084033613446) 59%, rgba(1,18,236,0.7876400560224089) 75%);
+
+}
+
+/*styling award images class*/
+
+.awards-images{
+    width:55vw;
+    height:60vh;
+    border-radius:20px;
+    object-fit: contain; 
+    background-color:#ff301955;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none;
+}
+
+ul > li{
+    width:55vw;
+    height:60vh;
+    list-style-type: none;
+    position:relative
+}
+ul{
+    width:55vw;
+    height:60vh;
+    border:2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top:auto;
+    margin-bottom: auto;
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
+
+@media only screen and (max-width:932px) {
+    #title{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+    
+        font-size:3em;
+        display:flex;
+        justify-content: center;
+        width:96%;
+        height:60%;
+        bottom:27%;
+        padding:50px;
+        color:#FF6F61;
+        align-items: center;
+        font-family:"Bebas Neue";
+       
+    }
+    h1 > span:nth-child(1){
+      position:absolute;
+      transition: 0.5s;
+      left:7%;
+        
+        
+    }
+    h1 > span:nth-child(2){
+        position:absolute;
+        visibility:hidden;
+        transition:ease-in-out;
+        font-size:2em;
+        font-family:"Poppins";
+        font-weight:100;
+        left:50%;
+        color:#FFD700
+    
+        
+    }
+    h1 >span:nth-child(3){
+        position:absolute;
+        left:60%;
+        transition: 0.5s;
+        color:#36454F;
+       
+       
+    }
+
+    /*styling achivement heading */
+    #achivement-heading{
+        display:flex;
+        justify-content: center;
+        height:20vh;
+        width:100%;
+        font-family:"Bebas Neue";
+        margin-bottom:50px;
+        color:#FF6F61;
+    
+    }
+
+    #achivement-h2-tag>span:nth-child(1){
+        position:absolute;
+        font-size:3em;
+        left:30%;
+        clip-path: polygon(0 0, 52% 0, 51% 100%, 0% 100%);
+        transition:0.5s;
+        
+        
+    }
+    
+    #achivement-h2-tag> span:nth-child(2){
+        position:absolute;
+        font-size:4em;
+        visibility: hidden;
+        transition: 0.10s;
+        left:3%;
+        color:#36454F
+    
+    }
+    
+    #achivement-h2-tag>span:nth-child(3){
+        position:absolute;
+        font-size:3em;
+        left:30%;
+        transition: 0.5s;
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    }
+    
+    #outer-wrapper{
+        height:90vh;
+        width:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:50px;
+        
+    }
+    #container-tag{
+        width: 30vw;
+        height: auto;
+    
+        display: flex;
+        left:10%;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        
+    
+    
+    }
+    #tag-2,
+    #tag-0,
+    #tag-3{
+    width:5vw;
+    margin-right:10%;
+    height: 10vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 0.7em;
+    transition: 1s;
+    font-family: "Bebas Neue";
+
+}
+
+.wrappers{
+    
+    margin-bottom:50px;
+    display:flex;
+    border-radius:30px;
+    font-family:"Poppins"
+}
+
+.content{
+    height:auto;
+    width:55vw; 
+    font-size:0.6em;
+    margin:30px;
+    line-height: 1.5;
+    position:relative;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+    rotate: 2deg;
+   
+    }
+ .imageContainer{
+        width:25vw;
+        height:50%;
+        object-fit: contain;
+        margin-right: 10px;
+        display: flex;
+        align-self: center;
+        
+}
+
+#skills{
+    
+    height:8vh;
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    border-radius:10px;
+    color:#fdfdfd;
+    font-family:"Bebas Neue";
+    background-color:#ffc107;
+    box-shadow:10px 10px 5px 0px whitesmoke;
+}
+.image{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none;
+}
+
+#awards-container{
+    margin:0;
+    border:none;
+}
+
+#nxtBtn{
+    font-size:2.5em;
+}
+
+#award-heading{
+    width:100%;
+    height:20vh;
+    display:flex;
+    justify-content: center;
+    color:#FF6F61;
+    
+}
+#awards-h2-tag>span{
+    font-size:3em;
+    font-family:"Bebas Neue";
+    position: absolute;
+    left:17%;
+   
+}
+
+#awards-h2-tag>span:nth-child(3){
+    visibility: hidden;
+    font-size:4em;
+    color:#FFD700;
+    left:20%;
+}
+
+#awards-section{
+   
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    border-radius:20px;
+    width:80vw;
+    height:25vh;
+    
+
+}
+
+ul{
+    
+width:100%;
+height:100%;
+   
+}
+
+ul li{
+    width:80vw;
+    height:25vh;
+   
+}
+
+.awards-images{
+    width:80vw;
+    height:25vh;
+   
+}
+
+
+#awards-content{
+    width:80%;
+    margin: 40px;
+    font-size:0.8em;
+    line-height: 1.5;
+    border:none;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.paragraph-award{
+    padding:30px;
+    color:whitesmoke;
+   
+    
+}
+
+#home{
+    display:flex;
+    width:25vw;
+    padding:10px;
+    height:6vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue";
+    font-size:2em;
+    text-decoration: none;
+    color:black;
+    border:2px solid black;
+}
+
+}
