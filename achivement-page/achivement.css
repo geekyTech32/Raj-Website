@@ -247,7 +247,7 @@ object-fit: contain;
     justify-self: center;
     border: #36454F solid 2px;
     
-    background-image: url("/jpg_folder/download-3.jpg");
+    background-image: url("../jpg_folder/download-3.jpg");
     
 }
 
