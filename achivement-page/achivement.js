@@ -168,7 +168,7 @@ let lists= document.querySelector("#awards-section> ul li img")
 let nxtBtn= document.querySelector("#nxtBtn")
 let awardContent= document.querySelector(".paragraph-award")
 let counter=0
-let image=["/jpg_folder/award-1.jpg","/jpg_folder/award-2.jpg", "/jpg_folder/award-3.jpg","/jpg_folder/award-4.jpg"]
+let image=["../jpg_folder/award-1.jpg","../jpg_folder/award-2.jpg", "../jpg_folder/award-3.jpg","../jpg_folder/award-4.jpg"]
 let content= ["Getting an compliment from vice president for my services.","On the cover page of Russian Magazine","Five year of best employ award","appreciation for my service's in Kolkata"]
 // next button//
 
@@ -198,14 +198,14 @@ nxtBtn.addEventListener("click",()=>{
 document.getElementById('skills').addEventListener('click', function (event) {
    event.preventDefault()
     let link = document.createElement('a');
-    link.href = '/jpg_folder/portfolio.pdf';
+    link.href = '../jpg_folder/portfolio.pdf';
 
     // Check if the download attribute is supported
     if (typeof link.download !== 'undefined') {
         link.download = 'Raj Portfolio';
     } else {
         // If not supported, open the file in a new tab
-        window.open('/jpg_folder/Raj 2024.pdf', '_blank');
+        window.open('../jpg_folder/Raj 2024.pdf', '_blank');
     }
 
     link.click();
