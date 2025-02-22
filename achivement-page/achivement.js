@@ -168,7 +168,7 @@ let lists= document.querySelector("#awards-section> ul li img")
 let nxtBtn= document.querySelector("#nxtBtn")
 let awardContent= document.querySelector(".paragraph-award")
 let counter=0
-let image=["../jpg_folder/award-1.jpg","../jpg_folder/award-2.jpg", "../jpg_folder/award-3.jpg","../jpg_folder/award-4.jpg"]
+let image=["../jpg_folder/award-1.jpg","../jpg_folder/award-2.jpg", "../jpg_folder/award-3.jpg" ,"../jpg_folder/award-4.jpg"]
 let content= ["Getting an compliment from vice president for my services.","On the cover page of Russian Magazine","Five year of best employ award","appreciation for my service's in Kolkata"]
 // next button//
 
@@ -179,6 +179,7 @@ nxtBtn.addEventListener("click",()=>{
         counter=0
         
     }
+    console.log(counter)
     lists.src=image[counter];
     awardContent.innerHTML=`${content[counter].toUpperCase()}`
 })
