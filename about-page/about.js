@@ -313,7 +313,7 @@ contents.forEach(item => {
 
 
 let link= document.querySelector("#d2")
-let href= '/jpg_folder/Raj 2024.pdf'
+let href= '../jpg_folder/Raj 2024.pdf'
 console.log(link)
 link.addEventListener("click", (event)=>{
     event.preventDefault()
@@ -322,7 +322,7 @@ link.addEventListener("click", (event)=>{
         link.download="Raj 2024.pdf"
     }
     else{
-        window.open( '/jpg_folder/Raj 2024.pdf',"_blank")
+        window.open( '../jpg_folder/Raj 2024.pdf',"_blank")
     }
 
 link.click()
